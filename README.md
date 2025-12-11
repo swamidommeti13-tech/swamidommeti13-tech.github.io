@@ -36,7 +36,7 @@ PK&#x0;&#x0;&#x0;&#x0;&#x0;���[�Z�(        &#x0;&#x0;(        &#x0;&#x
     <section>
         <h2>Certificates</h2>
         <ul>
-            <li>Certificate 1 – Add your certificate name here</li>
+            <li>Certificate 1 – introduction to c certificate from solo learn</li>
             <li>Certificate 2 – Another certificate</li>
             <li>Certificate 3 – You can add unlimited certificates</li>
         </ul>
@@ -61,8 +61,8 @@ PK&#x0;&#x0;&#x0;&#x0;&#x0;���[�Z�(        &#x0;&#x0;(        &#x0;&#x
 
     <section>
         <h2>Contact</h2>
-        <p>Email: your.email@example.com</p>
-        <p>Phone: +91 XXXXX XXXXX</p>
+        <p>Email: swamidommeti13@.com</p>
+        <p>Phone: +91 8341941919</p>
     </section>
 
     <footer>
