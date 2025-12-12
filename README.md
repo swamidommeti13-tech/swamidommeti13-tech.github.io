@@ -1,73 +1,98 @@
-PK&#x0;&#x0;&#x0;&#x0;&#x0;���[�Z�(        &#x0;&#x0;(        &#x0;&#x0;
-&#x0;&#x0;&#x0;index.html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Swami Dommeti - Portfolio</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-        header { background: #222; color: white; padding: 20px; text-align: center; }
-        section { padding: 40px; max-width: 900px; margin: auto; }
-        h2 { color: #222; }
-        img { max-width: 180px; border-radius: 10px; }
-        .projects, .cert-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 40px; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swami Dommeti | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <h1>Swami Dommeti</h1>
-        <p>My Portfolio Website</p>
-    </header>
+  <!-- Top navigation -->
+  <header class="top-nav">
+    <div class="logo">Swami</div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-    <section>
-        <h2>About Me</h2>
-        <img src="profile.jpg" alt="Swami Dommeti">
-        <p>Hi! I'm Swami Dommeti. This is my portfolio site showing my skills, certificates, and projects.</p>
-    </section>
-
-    <section>
-        <h2>Edit Details</h2>
-        <p>You can update your personal information, skills, and projects anytime by editing this HTML file.</p>
-    </section>
-
-    <section>
-        <h2>Certificates</h2>
-        <ul>
-            <li>Certificate 1 – introduction to c certificate from solo learn</li>
-            <li>Certificate 2 – Another certificate</li>
-            <li>Certificate 3 – You can add unlimited certificates</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>C Programming Language</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Health Management System</h3>
-                <p>A project designed to efficiently manage health-related records and information.</p>
-            </div>
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <p class="tagline">B.Tech Student • C Programmer</p>
+        <h1>Hi, I'm Swami Dommeti</h1>
+        <p class="subtitle">
+          An engineering student from India who enjoys building C programs, solving problems, and exploring finance and stock markets.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View Projects</a>
+          <a href="#contact" class="btn secondary">Contact Me</a>
         </div>
+      </div>
+      <!-- Optional profile photo -->
+      <div class="hero-photo">
+        <img src="profile.jpg" alt="Photo of Swami Dommeti" />
+      </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: swamidommeti13@.com</p>
-        <p>Phone: +91 8341941919</p>
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        My name is Swami Dommeti. I am currently pursuing my B.Tech and focusing on C programming, data structures, and core computer science concepts.
+      </p>
+      <p>
+        I like working on coding challenges, managing GitHub repositories, and learning about stock trading and finance in my free time.
+      </p>
     </section>
 
-    <footer>
-        <p>© 2025 Swami Dommeti. All rights reserved.</p>
-    </footer>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul class="pill-list">
+        <li>C Programming</li>
+        <li>Data Structures (Basics)</li>
+        <li>Git & GitHub</li>
+        <li>Python (Basics)</li>
+        <li>HTML, CSS, JavaScript (Basics)</li>
+      </ul>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <h3>C Programs Collection</h3>
+          <p>A set of beginner to intermediate C programs that practice loops, functions, and data structures.</p>
+          <a href="https://github.com/your-github-username/your-c-repo" target="_blank">View on GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3>DSA Practice</h3>
+          <p>Implementations of arrays, stacks, queues, and linked lists in C as part of daily revision practice.</p>
+          <a href="https://github.com/your-github-username/your-dsa-repo" target="_blank">View on GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: yourmail@example.com</p>
+      <p>GitHub: <a href="https://github.com/your-github-username" target="_blank">your-github-username</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">Swami Dommeti</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Swami Dommeti. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-</html>PK&#x0;&#x0;&#x0;&#x0;&#x0;���[�Z�(        &#x0;&#x0;(        &#x0;&#x0;
-&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;��&#x0;&#x0;&#x0;&#x0;index.htmlPK&#x0;&#x0;&#x0;&#x0;&#x0;&#x0;8&#x0;&#x0;&#x0;P        &#x0;&#x0;&#x0;&#x0;# swamidommeti13-tech.github.io
+</html>
