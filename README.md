@@ -75,7 +75,7 @@
         <article class="project-card">
           <h3>DSA Practice</h3>
           <p>Implementations of arrays, stacks, queues, and linked lists in C as part of daily revision practice.</p>
-          <a href="https://github.com/your-github-username/your-dsa-repo" target="_blank">View on GitHub</a>
+          <a href="https://github.com/swamidommeti13/your-dsa-repo" target="_blank">View on GitHub</a>
         </article>
       </div>
     </section>
@@ -83,8 +83,8 @@
     <!-- Contact -->
     <section id="contact" class="section">
       <h2>Contact</h2>
-      <p>Email: yourmail@example.com</p>
-      <p>GitHub: <a href="https://github.com/your-github-username" target="_blank">your-github-username</a></p>
+      <p>Email: swamidommeti13@gmail.com</p>
+      <p>GitHub: <a href="https://github.com/swamidommeti13" target="_blank">your-github-username</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">Swami Dommeti</a></p>
     </section>
   </main>
